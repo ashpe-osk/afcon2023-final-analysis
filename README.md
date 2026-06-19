@@ -1,21 +1,21 @@
-# AFCON 2023 Final - Passing Analysis using Python
+# AFCON 2023 Final - Passing Analysis
 
-This project analyzes individual and team passing behaviour using StatsBomb open event data and Python, examining:
+Python project analyzing how Côte d'Ivoire moved the ball in the AFCON 2023 Final, using StatsBomb's open event data.
 
-**Nigeria vs Côte d'Ivoire - AFCON 2023 Final**
+**Match:** Nigeria vs Côte d'Ivoire, AFCON 2023 Final (11 February 2024)
 
-It breaks down a single player's distribution patterns and a team's overall passing structure, turning raw event data into visual, tactical insight. This is the kind of analysis used in scouting, tactical prep, and post match review.
+The project looks at the game from two angles: how one player (Jean Michaël Seri) distributed the ball, and how the team as a whole built up play through its passing network.
 
-## Project Overview
+## What's Included
 
-**Player Pass Map**: every pass attempted by a single player, split into completed and incomplete, showing volume, accuracy, and zones of influence.
+**Player Pass Map**: every pass Seri attempted, plotted on a pitch and split into completed and incomplete, to see his volume, accuracy and the areas he influenced most.
 
-**Team Passing Network**: passes aggregated into a network where:
+**Team Passing Network**: passes between Côte d'Ivoire's starting XI turned into a network, where:
 
-* Nodes represent players, sized by passing involvement
-* Edges represent connections between players, with thickness showing pass frequency
+* Node size shows how involved a player was in passing
+* Edge thickness shows how often two players connected
 
-## Example Output
+## Output
 
 **Player Pass Map** (Jean Michaël Seri, Côte d'Ivoire)
 
@@ -25,13 +25,12 @@ It breaks down a single player's distribution patterns and a team's overall pass
 
 ![Passing Network](images/passing_network.png)
 
-## Data Source
+## Key Findings
 
-[StatsBomb Open Data](https://github.com/statsbomb/open-data), free event level football data for research and education.
-
-## Tech Stack
-
-Python, pandas, numpy, mplsoccer, statsbombpy, matplotlib
+* Seri completed 61 of 66 passes (about 92%), operating as a deep lying playmaker linking defence to attack
+* The team's build up leaned heavily on the left side and centre, through Konan, Ndicka, Kossonou and Seri
+* The strongest single passing connection was Konan to Adingra
+* The right flank (Aurier, Gradel) was comparatively underused
 
 ## Project Structure
 
@@ -51,20 +50,17 @@ afcon-2023-final-passing-analysis/
     └── Passing_Analysis_Report.pdf   # Full written report
 ```
 
-## Key Insights
+## Tech Stack
 
-* Seri operated as a deep lying playmaker, with high volume and strong accuracy (92%)
-* Côte d'Ivoire's build up was left sided and centrally organised
-* Konan, Ndicka, Kossonou and Seri were the primary distribution hubs
-* The right flank was comparatively underused
+Python, pandas, numpy, mplsoccer, statsbombpy, matplotlib
+
+## Data Source
+
+[StatsBomb Open Data](https://github.com/statsbomb/open-data), free event level football data for research and education.
 
 ## Report
 
 Full methodology and interpretation: [Passing Analysis Report](report/Passing_Analysis_Report.pdf)
-
-## Purpose
-
-Part of my personal portfolio in football data science, applying event data analysis and network visualization in Python to a real competitive fixture.
 
 ## Author
 
