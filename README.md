@@ -1,4 +1,3 @@
-```markdown
 # AFCON 2023 Final — Passing Analysis using Python
 
 This project analyzes individual and team passing behaviour using StatsBomb open event data and Python, examining:
@@ -73,4 +72,3 @@ Oseko Ashpe
 Football Data Analyst
 LinkedIn: https://www.linkedin.com/in/ashpe-ayubu
 GitHub: https://github.com/ashpe-osk
-```
