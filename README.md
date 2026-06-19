@@ -1,19 +1,19 @@
-# AFCON 2023 Final — Passing Analysis using Python
+# AFCON 2023 Final - Passing Analysis using Python
 
 This project analyzes individual and team passing behaviour using StatsBomb open event data and Python, examining:
 
-**Nigeria vs Côte d'Ivoire — AFCON 2023 Final**
+**Nigeria vs Côte d'Ivoire - AFCON 2023 Final**
 
-It breaks down a single player's distribution patterns and a team's overall passing structure, turning raw event data into visual, tactical insight — the kind of analysis used in scouting, tactical prep, and post-match review.
+It breaks down a single player's distribution patterns and a team's overall passing structure, turning raw event data into visual, tactical insight. This is the kind of analysis used in scouting, tactical prep, and post match review.
 
 ## Project Overview
 
-**Player Pass Map** — every pass attempted by a single player, split into completed/incomplete, revealing volume, accuracy, and zones of influence.
+**Player Pass Map**: every pass attempted by a single player, split into completed and incomplete, showing volume, accuracy, and zones of influence.
 
-**Team Passing Network** — passes aggregated into a network where:
+**Team Passing Network**: passes aggregated into a network where:
 
-* Nodes = players, sized by passing involvement
-* Edges = connections between players, thickness = pass frequency
+* Nodes represent players, sized by passing involvement
+* Edges represent connections between players, with thickness showing pass frequency
 
 ## Example Output
 
@@ -27,11 +27,11 @@ It breaks down a single player's distribution patterns and a team's overall pass
 
 ## Data Source
 
-[StatsBomb Open Data](https://github.com/statsbomb/open-data) — free event-level football data for research and education.
+[StatsBomb Open Data](https://github.com/statsbomb/open-data), free event level football data for research and education.
 
 ## Tech Stack
 
-Python · pandas · numpy · mplsoccer · statsbombpy · matplotlib
+Python, pandas, numpy, mplsoccer, statsbombpy, matplotlib
 
 ## Project Structure
 
@@ -53,8 +53,8 @@ afcon-2023-final-passing-analysis/
 
 ## Key Insights
 
-* Seri operated as a deep-lying playmaker — high volume, strong accuracy (92%)
-* Côte d'Ivoire's build-up was left-sided and centrally organised
+* Seri operated as a deep lying playmaker, with high volume and strong accuracy (92%)
+* Côte d'Ivoire's build up was left sided and centrally organised
 * Konan, Ndicka, Kossonou and Seri were the primary distribution hubs
 * The right flank was comparatively underused
 
@@ -64,7 +64,7 @@ Full methodology and interpretation: [Passing Analysis Report](report/Passing_An
 
 ## Purpose
 
-Part of my personal portfolio in football data science, applying event-data analysis and network visualization in Python to a real competitive fixture.
+Part of my personal portfolio in football data science, applying event data analysis and network visualization in Python to a real competitive fixture.
 
 ## Author
 
