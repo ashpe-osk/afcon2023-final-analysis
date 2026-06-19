@@ -65,6 +65,8 @@ Full methodology and interpretation: [Passing Analysis Report](report/Passing_An
 ## Author
 
 Oseko Ashpe
+
 Football Data Analyst
+
 LinkedIn: https://www.linkedin.com/in/ashpe-ayubu
 GitHub: https://github.com/ashpe-osk
